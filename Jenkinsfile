@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DIRECTORY_PATH = "C:/Program Files/Java/jdk-17"
-        TESTING_ENVIRONMENT = "DevelopmentEnv"
+        TESTING_ENVIRONMENT = "DevelopmentEnvT"
         PRODUCTION_ENVIRONMENT = "hasitha_production_env"
     }
 
