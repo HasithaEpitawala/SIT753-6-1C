@@ -77,7 +77,7 @@ pipeline {
                 failure {
                     emailext to: 'hasitha.epitawala@gmail.com',
                              subject: "Testing for security scan ${currentBuild.result}: ${currentBuild.fullDisplayName}",
-                             body: "testing status for security scan: ${currentBuild.result}.\n" +
+                             body: "Testing status for security scan: ${currentBuild.result}.\n" +
                                    "Check the attached logs for more details.",
                              attachLog: true
                 }
