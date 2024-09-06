@@ -37,7 +37,7 @@ pipeline {
                 success {
                     emailext to: 'hasitha.epitawala@gmail.com',
                              subject: "Testing ${currentBuild.result}: ${currentBuild.fullDisplayName}",
-                             body: "testing status: ${currentBuild.result}.\n" +
+                             body: "Testing status: ${currentBuild.result}.\n" +
                                    "Check the attached logs for more details.",
                              attachLog: true
                 }
